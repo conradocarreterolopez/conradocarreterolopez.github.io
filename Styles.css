@@ -1,7 +1,15 @@
 body {
-  background-image: url('assets/Adomination.jpg');
+  
   background-size: 60% 100%;
   background-position: top;
    background-repeat: no-repeat;
    background-color: #758DE6;
+   text-align: center;
+   color: white;
+}
+.contenedor-imagen img {
+  display: block; /* Convierte la imagen en un bloque */
+  margin-left: left; /* Margen izquierdo automático */
+  margin-right: auto; /* Margen derecho automático */
+
 }
