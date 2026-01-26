@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="Styles.css">
 </head>
 
+
 <body>
 
     <!-- HEADER + NAVEGACIÓN -->
@@ -25,29 +26,91 @@
     <main class="column">
 
         <!-- SECCIÓN DE BIENVENIDA -->
-        <div class="contenedor-imagen">
-     <img src="assets/boceto.png" width="100" height= "100" align= top>
+        
+        
+        <div id= "home" class="contenedor-imagen">
+        
+     
+     <img src="assets/banner.png" width= 100% height= "400" align= top>
+
     </div>
+   <head >
+<style>
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  
+}
+
+ul li {
+  float: left;
+ 
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Inicio</a></li>
+  <li><a href="#about">Proyectos</a></li>
+  <li><a href="#contact">Contacto</a></li>
+  
+</ul>
+
+</body>
         <section>
             <font size="40"><h1 style="color: #D92727; text-align: center;">Bienvenido a mi Portfolio</h1> </font>
             <p >Este es mi porfolio, aun no tiene muchas cosas porque es un prototipo del original, aqui encontraras algunos de mis trabajos </p>
         </section>
 
         <!-- ARTÍCULO DE PROYECTO -->
-        <article>
-            <h2>Proyecto Destacado</h2>
+        <article >
+            <h2 id="about">Proyecto Destacado</h2>
 
             <figure>
-                <img src="assets/yo.jpg" width="400" height="300" alt="Captura del proyecto">
+                <img  src="assets/yo.jpg" width="400" height="300" alt="Captura del proyecto">
                 <figcaption>Esta es mi creacion favorita, un dibujo de una de mis primeras creaciones</figcaption>
             </figure>
+        </article>
+        <article>
+        <h2> Otros proyectos</h2>
+        <img src="assets/mascota.png" width="400" height="300" alt="otro proyecto">
+        <img src="assets/pj.png" width="400" height="300" alt="otro proyecto">
+        <img src="assets/helenn.png" width="400" height="300" alt="otro proyecto">
         </article>
 
     </main>
 
     <!-- PIE DE PÁGINA -->
-    <footer>
-        <p> 2025  Conrado Carretero</p>
+    <footer >
+        <p  text-align: left> 2025  Conrado Carretero</p>
     </footer>
     
     

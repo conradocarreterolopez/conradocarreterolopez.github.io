@@ -23,4 +23,14 @@ body {
   margin-left: left; /* Margen izquierdo automático */
   margin-right: auto; /* Margen derecho automático */
 
+
 }
+.imagenArriba {
+    position: relative; /* Esencial para el posicionamiento absoluto */
+    width: 500px; /* Tamaño del contenedor */
+    height: 300px;
+  }
+  html
+  {
+      scroll-behavior: smooth;
+  }
