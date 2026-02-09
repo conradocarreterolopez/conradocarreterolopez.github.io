@@ -34,3 +34,9 @@ body {
   {
       scroll-behavior: smooth;
   }
+  footer
+  {
+      text-align: center;
+      background-color: #333333;
+      padding: 1px;
+  }
